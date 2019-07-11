@@ -17,7 +17,7 @@ publicDirectoryPath = path.join(__dirname,'../public');
 
 app.use(express.static(publicDirectoryPath));
 app.get('/about',(req,res)=>{
-    res.send('About page');
+    res.send('About dfffdgdfgdfgdfgdfpage');
 })
 -
 app.get('/products',(req,res)=>{
